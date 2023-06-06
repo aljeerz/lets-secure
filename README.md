@@ -6,20 +6,9 @@ This Repository Provides Utility Factory for NodeJS Native Crypto, OTPLib
 
 ## Features
 
-Head to [OTPLib](https://github.com/yeojz/otplib) for more details
+Head to [OTPLib](https://github.com/yeojz/otplib) for more details.
 
-This Package offers :
-
-- Query Transformer using Objects as Parameters and Internal Functions
-- Multi Client Support (Multi Space Usecase)
-
-Security Features :
-
-- Auto Escape Parameters ( Avoid Diret String Concatination )
-
-Quality Of Life :
-
-- Provides an interface for Generator Functions (Example Below)
+⚠️ PS: HMAC OTP Not Implemented Yet
 
 ## Installation
 
