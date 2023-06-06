@@ -6,7 +6,7 @@ This Repository Provides Utility Factory for NodeJS Native Crypto, OTPLib
 
 ## Features
 
-Head to [OTPLib](github.com/yeojz/otplib) for more details
+Head to [OTPLib](https://github.com/yeojz/otplib) for more details
 
 This Package offers :
 
