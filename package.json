@@ -1,6 +1,6 @@
 {
   "name": "@aljeerz/lets-secure",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utility Factory for NodeJS Crypto, OTPLib ...",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
