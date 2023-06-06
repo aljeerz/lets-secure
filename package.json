@@ -1,0 +1,47 @@
+{
+  "name": "@aljeerz/lets-secure",
+  "version": "0.0.1",
+  "description": "Utility Factory for NodeJS Crypto, OTPLib ...",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test:dev": "vitest",
+    "test": "vitest run",
+    "build": "tsup src/index.ts --format cjs,esm --dts ",
+    "lint": "tsc",
+    "ci": "npm run lint && npm run test && npm run build",
+    "release": "npm run lint && npm run test && npm run build && changeset publish -r"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aljeerz/lets-secure.git"
+  },
+  "keywords": [
+    "crypto",
+    "otp",
+    "totp"
+  ],
+  "author": "Abdelmounaim Bouakouk <abdelmounaim@bouakouk.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aljeerz/lets-secure/issues"
+  },
+  "homepage": "https://github.com/aljeerz/lets-secure#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@otplib/core": "^12.0.1",
+    "otplib": "^12.0.1"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@otplib/core": "^12.0.1",
+    "@types/node": "^20.2.5",
+    "otplib": "^12.0.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.4"
+  }
+}
